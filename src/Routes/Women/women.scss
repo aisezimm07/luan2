@@ -1,0 +1,197 @@
+.h1span{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.on {
+    position: relative;
+    overflow: hidden;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+.on > .best {
+    display: inline-block;
+    margin: 0 .4em;
+    
+  }
+.on > .best:before,
+.on > .best:after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    border-top: 2px solid #dee2e6;
+    margin-top: .6em;
+    
+  }
+.on > .best:before {
+    margin-left: -52%;
+    border-radius: 10%;
+  }
+.on > .best:after {
+    margin-left: 1%;
+  }
+  .span{
+    font-weight: bold;
+  }
+  /* women.scss */
+
+.container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .h1span {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+  
+  .product {
+    width: calc(33.33% - 20px); /* Размер каждого товара с учетом промежутков */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+ 
+    text-align: center;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  .subscribee{
+    width: 1296px;
+    height: 400px;
+    background-image: url("https://luan-react.hibotheme.com/images/subscribe-bg.jpg");
+    margin-left: 0px;
+    text-align-last: left;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+  }
+  .texter{
+   margin-left: 50%;
+   color: #fff;
+   padding-top: 10%;
+  }
+  .loremth{
+    color: #fff;
+    cursor: pointer;
+  }
+  .loremsec:hover{
+    color: #d80f0f;
+  }
+  .inpput{
+    margin-top: 20px;
+  width: 300px;
+  height: 50px;
+  border: 0;
+  padding: 10px;
+  }
+  .lia{
+    font-size: 20px;
+    margin-right: 4px;
+    padding-top: 5px;
+    width: 20px;
+  }
+  .texter button{
+    padding: 15px;
+    padding-top: 8px;
+  }
+  .firstbox{
+    line-height: 20px;
+  }
+  .head{
+    margin-bottom: 20px;
+  }
+/* women.scss */
+
+/* women.scss */
+
+/* women.scss */
+
+.product {
+    position: relative;
+ 
+    // Your existing styles for the product container
+  }
+  
+  .product-buttons {
+    position: absolute;
+    top: 71%;
+  right: 6%;
+gap: 10px;
+border-radius: 50%;
+  transform: translateY(-40%);
+    display: flex;
+    flex-direction: column; /* Display buttons vertically */
+    align-items: flex-end;
+    opacity: 0; /* Initially hide buttons */
+    transition: opacity 0.3s ease-in-out; /* Add a transition for opacity */
+  }
+  .cart-button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .favorite-button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .product:hover .product-buttons {
+    opacity: 1; /* Fade buttons in on hover */
+  }
+  .heart{
+    font-size: 30px;
+    margin-top: 8px;
+  }
+  
+  .product {
+    position: relative;
+    // Your existing styles for the product container
+  }
+  
+  .product-image {
+    position: relative;
+  }
+  
+  .sale-label {
+    position: absolute;
+    width: 80px;
+    top: 0;
+    left: 0;
+    background-color: #00fff7; /* Set the background color for the sale label */
+    color: #fff; /* Set the text color */
+    padding: 5px; /* Adjust padding as needed */
+     /* Add rounded corners */
+  }
+  /* Добавьте другие стили для оформления товаров по вашему вкусу */
+  .cat {
+    p {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      select {
+        margin-left: 10px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        cursor: pointer;
+      }
+    }
+  }

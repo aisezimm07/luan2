@@ -1,0 +1,355 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+  font-family: 'Jost', sans-serif;   
+  
+ 
+} 
+ .containerr{
+    height: auto;
+    
+ }
+.text{ 
+    padding: 250px 100px 0 100px; 
+    width: 800px; 
+    height: 867px; 
+    text-align: left; 
+   padding-bottom: 0;
+} 
+
+.main{ 
+    background-color: #f3f3f3; 
+    height: 867px; 
+    display: flex; 
+    gap: 20px; 
+    height: auto;
+} 
+.new{ 
+    color: #cf0018; 
+    font-size: 24px; 
+} 
+.woma{ 
+    font-size: 80px; 
+    text-align-last: left;
+} 
+ 
+.fif{ 
+    color: #cf0018; 
+    padding-top: 10px; 
+    font-size: 80px;
+} 
+button{ 
+    width: 180px; 
+    height: 47px; 
+    background-color: #000; 
+    color: #fff; 
+    border: 0;
+    transition: .5s;
+} 
+.store{ 
+    color: #fff; 
+    margin-right: 5px;   
+} 
+button:hover{
+    background-color: #d80f0f;
+}
+.img4{ 
+    position: absolute; 
+    margin: 0; 
+    padding: 0; 
+} 
+.images { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-top: 50px;
+} 
+ 
+.image-container { 
+    position: relative;  
+      
+     
+} 
+ 
+.product_card{ 
+ 
+    padding: 10px;
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+   
+} 
+ 
+ 
+.card { 
+    position: relative; 
+    margin: 10px; 
+    overflow: hidden; 
+    flex-wrap: wrap; 
+    height: auto;
+} 
+ 
+.card_img { 
+    width: 420px; 
+    height: 540px; 
+    z-index: -1;  
+     transition: transform 0.3s ease; 
+} 
+.card:hover .card_img { 
+    transform: scale(1.1); /* Увеличение картинки при наведении */ 
+} 
+.vkladka { 
+    background-color: #ffffff; 
+    width: 350px; 
+    height: 70px; 
+    display: flex; 
+    position: absolute; 
+    padding: 20px 50px; 
+    gap: 30px; 
+    top: 80%; 
+    font-size: 20px; 
+    font-weight: bold; 
+} 
+ 
+p{ 
+    color: #4b4b4b; 
+    font-weight: normal; 
+    margin-top: 4px; 
+    font-size: 17px; 
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+@media (max-width: 1440px) { 
+    .text{ 
+        padding: 250px 70px; 
+        width: 450px; 
+        height: 867px; 
+        text-align: left; 
+    } 
+    h4{ 
+        color: #cf0018; 
+        font-size: 24px; 
+    } 
+    h1,h2{ 
+        font-size: 60px; 
+    } 
+     
+    h2{ 
+        color: #cf0018; 
+        padding-top: 10px; 
+    } 
+    .card_img { 
+        
+        z-index: -1;  
+         transition: transform 0.3s ease; 
+    } 
+    .product_card{ 
+       height: auto;
+        
+        display: flex;   
+    } 
+ 
+     
+     
+  } 
+  
+  @media (max-width: 1024px) { 
+    
+    .card_img { 
+    width: 100px;
+        z-index: -1;  
+         transition: transform 0.3s ease; 
+    } 
+
+    .main{ 
+     padding-left: 20px;
+        height: auto; 
+        width: auto; 
+    } 
+    .images img{
+        width: 162px;
+        height: 534px;
+    }
+    .text { 
+        display: flex; 
+        
+ 
+        padding: 10px 00px; 
+       
+        z-index: 1; 
+        height: 357px; 
+         
+        flex-direction: column; /* Изменение направления флекс-контейнера */ 
+    } 
+     
+    .main-title { 
+        display: flex; 
+        flex-direction: column;
+        width: 0; /* Изменение направления флекс-контейнера */ 
+         
+    } 
+     .five{
+        text-align-last: left;
+     }
+    h4 { 
+        color: #cf0018;  
+        font-size: 24px; 
+        margin: 0 0 10px; 
+    } 
+     
+    h1, h2 { 
+        font-size: 60px; 
+        margin: 0; 
+    } 
+     
+    h2 { 
+        color: #cf0018; 
+        padding-top: 10px; 
+        margin-bottom: 20px; 
+        text-align: center;
+    } 
+     
+    button { 
+        width: 180px; 
+        height: 47px; 
+        background-color: #000; 
+        color: #fff; 
+    } 
+     
+    .vkladka { 
+        background-color: #ffffff; 
+        width: 350px; 
+        height: 70px; 
+        display: flex; 
+        position: absolute; 
+        padding: 20px 20px; 
+        gap: 20px; 
+        top: 60%; 
+        font-size: 20px; 
+    } 
+    p{ 
+        color: #4b4b4b; 
+        font-weight: normal; 
+        margin-top: 4px; 
+        font-size: 16px; 
+    } 
+ 
+     
+     
+    .card { 
+        position: relative; 
+        margin: 10px; 
+        overflow: hidden; 
+        flex-wrap: wrap; 
+    } 
+     
+    .card_img { 
+        width: 255px; 
+        height: 308px; 
+        z-index: -1;  
+         transition: transform 0.3s ease; 
+    }
+     
+  } 
+ 
+ 
+ 
+  @media (max-width: 768px) { 
+    .text { 
+        display: flex; 
+        align-items: center; 
+ 
+        padding: 10px 00px; 
+       width: auto;  
+        z-index: 1; 
+        height: 357px; 
+         
+        flex-direction: column;
+    }
+    .product_card{ 
+        height: 740px; 
+        padding: 0px 0px; 
+        display: flex; 
+        justify-content: space-around; 
+        flex-wrap: wrap; 
+    } 
+    .card_img { 
+        width: 500px; 
+        height: 590px; 
+        z-index: -1;  
+         transition: transform 0.3s ease; 
+    } 
+    .vkladka { 
+        background-color: #ffffff; 
+        width: 350px; 
+        height: 70px; 
+        display: flex; 
+        position: absolute; 
+        padding: 20px 50px; 
+        gap: 30px; 
+        top: 80%; 
+        font-size: 20px; 
+        font-weight: bold; 
+    } 
+     
+    p{ 
+        color: #4b4b4b; 
+        font-weight: normal; 
+        margin-top: 4px; 
+        font-size: 17px; 
+    } 
+}
+
+
+
+
+@media (max-width: 375px) { 
+  
+    .five {
+        display: flex;
+        align-items: baseline; 
+        gap: 5px;
+    }
+    
+    .five h1,
+    .five h2 {
+        font-size: 30px;
+        margin: 0; 
+    }
+    
+    .main-title h1 {
+        font-size: 30px;
+    }
+    button{ 
+        width: 180px; 
+        height: 47px; 
+        background-color: #000; 
+        color: #fff; 
+       margin-top: 10%;
+    } 
+    .image-container img{
+        width: 140px;
+        height: 462px;
+    }
+    .images{
+        margin-left: 20px;
+    }
+    .text{
+        
+        height:260px; 
+    }
+    .product_card{
+       display: flex;
+
+        
+    }
+  
+     
+    } 
+     
+  
